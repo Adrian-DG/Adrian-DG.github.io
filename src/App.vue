@@ -3,7 +3,8 @@
     <navbar-component/>
     <header-component/>
     <list-component :column="12" :phone="12" :tablet="4" :laptop="3" :title="'Categories'" :list="categories"/>
-    <list-component :column="12" :phone="10" :tablet="6" :laptop="4" :title="'Our Deals'" :list="deals"/>
+    <list-component :column="12" :phone="9" :tablet="6" :laptop="4" :title="'Our Deals'" :list="deals"/>
+    <footer-component/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ Popper.Defaults.modifiers.computeStyle.gpuAcceleration = false;
 import NavbarComponent from './components/navbar-component.vue';
 import HeaderComponent from './components/header-component.vue';
 import ListComponent from './components/list-component.vue';
+import FooterComponent from './components/footer-component.vue';
 
 
 export default {
@@ -41,6 +43,7 @@ export default {
     NavbarComponent,
     HeaderComponent,
     ListComponent,
+    FooterComponent,
   }
 }
 </script>

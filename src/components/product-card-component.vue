@@ -28,11 +28,12 @@
         font-size: 1.3rem;
     }
     .card {
-        height: 70vh;
+        min-height: 70vh;
+        height: auto;
     }
     .card-img-top {
         width: 100%;
-        height: 40vh;
+        height: 50vh;
     }
     .card-price {
         font-weight: 800;

@@ -14,6 +14,7 @@ export default {
 
 <style scoped>
     .card {
+        max-height: 15vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -21,7 +22,7 @@ export default {
     }
     .card-img {
         width: 100%;
-        height: 24vh;
+        height: auto;
     }
     .card-text {
         font-size: 1.3rem;
